@@ -10,9 +10,11 @@ Simply copy the macro file to your macro folder in your [Fiji](https://imagej.ne
 # Usage
 Acquire Z-stacks of cells expressing your reporter or labeled with the probe of your interest.
 
-* Single channel images with reporter only
+**1. Single channel images with reporter only**
+
 Text
-* Dual channel images with ER co-stain
+
+**2. Dual channel images with ER co-stain**
 Text
 
 # Citation
