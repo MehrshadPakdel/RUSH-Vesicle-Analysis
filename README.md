@@ -19,4 +19,7 @@ Start the macro and choose how many cells you want to analyze. Select your cell(
 Rationale: To analyze vesicle numbers of RUSH reporters that are still retained in the ER ("-Biotin") requires to substract the RUSH reporter objects with a ER co-stain marker. Starting the macro with a image that contains more than one channel, the macro will ask the user for the timepoint that should be analyzed. Choose your timepoint you want to analyze "- Biotin" (ER structures) or "+ Biotin" (vesicular structures). If "- Biotin" chosen, the user has to assign the channels to the ER marker or RUSH reporter. The user then chooses how many cells to analyze and selects the cell(s) by polygon or rectangular selection tools. After selecting a threshold for each channel, the ER marker will be subtracted from the RUSH reporter by the imageCalculator function to obtain a corrected binary image that should not contain any ER derived signal for subsequent vesicle quantification. If "+ Biotin" chosen, the reporter will be analyzed as described under section 1. above. 
 
 # Citation
-The macro will be uploaded and the citation will be updated as soon as the publication is released.
+If you used the RUSH-Vesicle-Analysis macro or modified it, please cite our work.
+
+Deng, Y., Pakdel, M., Blank, B., Sundberg, E.L., Burd, C.G., von Blume, J., 2018. Activity of the SPCA1 Calcium Pump Couples Sphingomyelin Synthesis to Sorting of Secretory Proteins in the Trans-Golgi Network. Dev. Cell 47, 464-478.e8. 
+https://doi.org/10.1016/j.devcel.2018.10.012
